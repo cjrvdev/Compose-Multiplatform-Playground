@@ -8,9 +8,7 @@ import org.koin.compose.KoinContext
 @Composable
 @Preview
 fun App() {
-    MaterialTheme {
-        KoinContext {
-
-        }
+    KoinContext {
+        Navigation()
     }
 }
